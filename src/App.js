@@ -17,7 +17,6 @@ function App() {
     const response = await api.post('repositories', {
       title: `Novo Repositorie ${Date.now()}`,
       url: "https://github.com/josepholiveira",
-        title: "Desafio ReactJS",
         techs: ["React", "Node.js"],
 
     });
